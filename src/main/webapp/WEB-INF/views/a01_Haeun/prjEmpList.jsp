@@ -251,7 +251,8 @@
 	                                    		<c:if test="${emp.auth != 'PM'}">disabled</c:if>
 	                                    		>인적자원 수정</button></td>
 	                                    </tr>
-	                                    <button style="display:none;" class="btn btn-info" id="${status.index}" onclick="giveNo('${prj.prjNo}')">인적자원 보기</button>
+	                                    <button style="display:none;" class="btn btn-info" id="${status.index}"
+	                                    	onclick="giveNo('${prj.prjNo}')">인적자원 보기</button>
 	                                    <input type="hidden" value="${prj.prjNo}">
 	                                </tfoot>
 	                            </table>
